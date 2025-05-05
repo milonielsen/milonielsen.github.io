@@ -1,4 +1,40 @@
-ul#mainnav {
-    list-style-type: none;
+body {
+    font-family: "Roboto", sans-serif;
+    }   
+        h1 {
+            color: rgba(213, 0, 0, 0.8);
+            font-size: 5em;
+            line-height: .3em;
+            text-decoration: line-through;
+             }
+        img {
+            width: 40%;
+            height: auto;
+        }
+    ul#mainnav {
+        text-align: justify;
+        text-transform: uppercase;
+        list-style-type: square;
+            a:link {
+            color: rgba(2, 142, 0, 0.8);
+            }
+         a:visited {
+            color: #800080;
+            }
+        a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+            }
+        }
+Background-color {
+    color: f2f0ef;
+ }
+body {
+    background-image: url("images/creacked\ texture.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
+        
