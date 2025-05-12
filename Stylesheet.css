@@ -1,0 +1,94 @@
+ *{margin: 0; padding: 0;}
+ 
+ body {
+    font-family: "Roboto", sans-serif;
+ }
+        h1 {
+            color: rgba(213, 0, 0, 0.8);
+            font-size: 5em;
+            line-height: .3em;
+            text-decoration: line-through;
+             }
+        img {
+            width: 40%;
+            height: auto;
+        }
+    ul#mainnav {
+        text-align: justify;
+        text-transform: uppercase;
+        list-style-type: square;
+            }
+background-color {
+    color: #f2f0ef;
+ }
+
+ body {
+    background-image: url("images/creacked_texture.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    a:link {
+    color: rgba(2, 142, 0, 0.8);
+    }
+    a:visited {
+        color: #800080;
+        }
+    a:hover {
+        color: #ff0000;
+        text-decoration: underline;
+        }
+
+#wrapper{
+    width: 80%;
+    margin: auto;
+    padding: 10%;
+        }
+    
+        .columns {float:left;}
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 100%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+
+    #container {
+    width: 80%;
+    margin: auto;
+    padding: 10%;
+    position: relative;
+    }
+
+    #header{
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .column {
+                width: 33.33%;
+                float: left;
+                margin: 10%;
+                }
+            } 
+        /* smaller than desk */
+
+        @media only screen and (max-width: 400px) {
+            .column {
+              width: 80%;
+              margin: auto;
+                }
+            }
