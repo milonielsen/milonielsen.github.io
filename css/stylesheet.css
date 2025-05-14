@@ -28,7 +28,7 @@ ul#mainnav {
 
 
  body {
-    background-image: url("images/creacked_texture.jpeg"); 
+    background-image: url("../images/creacked_texture.jpeg"); 
     background-repeat: no-repeat;
     background-size: cover;
     }
