@@ -16,11 +16,7 @@ h1 {
         }
 
 img {
-<<<<<<< HEAD
     width: 100%;
-=======
-    width: 40%;
->>>>>>> 0d68d3d721f532cd62936a8cad15747b53095380
     height: auto;
 }
 
@@ -55,10 +51,7 @@ a:hover {
         }
     
 .columns {float:left;}
-<<<<<<< HEAD
 .columns-right {float: right;}
-=======
->>>>>>> 0d68d3d721f532cd62936a8cad15747b53095380
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -68,7 +61,6 @@ a:hover {
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
-<<<<<<< HEAD
 .clear-both {
     clear: both;
 }
@@ -109,41 +101,6 @@ nav {
 
 @media only screen and (max-width: 400px) {
     .col-3, .col-4, .col-5, .col-7 {
-=======
-
-#container {
-    width: 80%;
-    margin: auto;
-    padding: 10%;
-    position: relative;
-}
-
-#header{
-    width: 80%;
-    margin: auto;
-    padding: 1em;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    }
-
-@media only screen and (max-width: 1200px) {
-    .column {
-        width: 33.33%;
-        float: left;
-        margin: 10%;
-        }
-    } 
-/* smaller than desk */
-
-@media only screen and (max-width: 400px) {
-    .col-3, .col-4, .col-5 {
->>>>>>> 0d68d3d721f532cd62936a8cad15747b53095380
         width: 100%;
         margin: auto;
         }
@@ -152,12 +109,9 @@ nav {
         width: 100%;
         height: auto;
     }
-<<<<<<< HEAD
 
     .bio {
         padding-top: 2em;
         padding-left: 0;
     }
-=======
->>>>>>> 0d68d3d721f532cd62936a8cad15747b53095380
     }
