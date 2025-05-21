@@ -1,0 +1,18 @@
+img {
+    width: 50%;
+    height: auto;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+a {
+color: #1EAEDB; }
+ 
+a:hover {
+color: #091f25; }
+
+.container {
+    margin: 10px;
+}
