@@ -14,7 +14,7 @@ a:hover {
 color: #091f25; }
 
 .container {
-    margin: 10px;
+    margin: none
 }
 
 .header-animation h1{
@@ -54,4 +54,49 @@ color: #091f25; }
   .transition-box:hover {
     background-color: rgb(96, 255, 167); 
     border-radius: 50%;       
+  }
+
+  .container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .overlap-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlap-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: red; /* Make the actual text transparent */
+  }
+  
+  .overlap-word {
+    position: relative;
+    display: inline-block; /* Allows setting background on individual words */
+    /* You might need to adjust positioning further depending on layout */
+  }
+  
+  .overlap-word::before {
+    content: attr(data-text); /* Duplicate the text */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blue; /* The color when overlapping */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: url('your-image.jpg'); /* Use the same image as background */
+    background-size: cover;
+    -webkit-text-fill-color: orange; /* Fallback for some browsers */
   }
